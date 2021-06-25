@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:background="@drawable/background_student">
+    
+    <ImageView
+        android:id="@+id/ivStudent"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/layoutTitles"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameStudent"
+            android:textSize="18sp"
+            android:layout_marginTop="1dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idStudent"
+            android:textSize="18sp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ageStudent"
+            android:textSize="18sp"
+            android:layout_marginTop="3dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="3dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/etId"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="2dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="2dp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/btnSendRv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:textStyle="italic"
+            app:icon="@android:drawable/ic_menu_more"
+            app:iconGravity="end"
+            app:iconPadding="25dp"
+            app:iconSize="80dp"
+            app:iconTint="#31A5DD" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

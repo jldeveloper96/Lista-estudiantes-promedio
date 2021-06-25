@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ListaCalificaciones</string>
+    <string name="nameStudent">Name:</string>
+    <string name="idStudent">ID:</string>
+    <string name="ageStudent">Age:</string>
+    <string name="title_courses">Course</string>
+    <string name="title_math">MATHEMATICS</string>
+    <string name="title_phy">PHYSICAL</string>
+    <string name="title_bio">BIOLOGY</string>
+    <string name="title_hys">HISTORY</string>
+    <string name="title_chem">CHEMISTRY</string>
+    <string name="status">STATUS</string>
+    <string name="grade">Grade</string>
+    <string name="back">Back</string>
+    <string name="send">Send</string>
+    <string name="final_grade">0</string>
+</resources>
